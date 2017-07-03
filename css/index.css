@@ -1,0 +1,9 @@
+body {
+  background-image: url(https://media.giphy.com/media/vFtWp05vBYnMQ/giphy.gif);
+  text-align: center;
+  background-size: auto;
+}
+ #myDiv {
+   color: red;
+   font-size: 1000%;
+ }

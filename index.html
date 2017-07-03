@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/index.css" type="text/css" rel="stylesheet"/>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="vendor/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
+  <title>JS</title>
+</head>
+<body>
+  <audio src="kcat.mp3" autoplay="true" loop="true">
+
+  </audio>
+      <input type="number" id="number1" name="number1" required/>
+      <input type="number" id="number2" name="number2" required/>
+
+      <button onClick="document.getElementById('myDiv').innerHTML=
+      addition(
+      document.getElementById('number1').value,
+      document.getElementById('number2').value
+      )">Résultat</button>
+      <div id="myDiv"></div>
+
+  <script type="text/javascript" src="JS/script.js">
+  </script>
+</body>
+</html>
